@@ -13,7 +13,10 @@ class App extends React.Component {
     };
   }
 
-  // TODO: componentWillMount()
+  // todo: componentWillMount()
+  componentWillMount(){
+    this.fetchTweets()
+  }
   // TODO: componentDidMount()
   // TODO: componentWillUnmount()
 
